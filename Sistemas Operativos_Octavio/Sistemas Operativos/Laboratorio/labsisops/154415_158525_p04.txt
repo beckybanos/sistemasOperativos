@@ -1,0 +1,125 @@
+/home/sisops
+.:
+total 84
+-rw-rw-r-- 1 sisops sisops  439 Feb  8 09:24 12.txt
+-r--r--r-- 1 sisops sisops   13 Feb 15 09:48 154415_158525_p04.txt
+-rw-rw-r-- 1 sisops sisops  150 Feb 15 09:19 9b.txt
+drwxr-xr-x 2 sisops sisops 4096 Jun  4  2012 Desktop/
+drwxr-xr-x 2 sisops sisops 4096 Jun  4  2012 Documents/
+drwxr-xr-x 2 sisops sisops 4096 Feb 15 08:12 Downloads/
+-rw-r--r-- 1 sisops sisops 8445 Jun  4  2012 examples.desktop
+-rw-rw-r-- 1 sisops sisops  546 Feb 15 08:13 index.html
+-rw-rw-r-- 1 sisops sisops  546 Feb 15 08:13 index.html.1
+drwxrwxr-x 6 sisops sisops 4096 Feb  8 09:12 mod1/
+drwxrwxr-x 2 sisops sisops 4096 Feb  8 09:11 mod2/
+drwxrwxr-x 2 sisops sisops 4096 Feb  8 09:11 mod3/
+drwxr-xr-x 2 sisops sisops 4096 Jun  4  2012 Music/
+drwxr-xr-x 2 sisops sisops 4096 Jun  4  2012 Pictures/
+drwxr-xr-x 2 sisops sisops 4096 Jun  4  2012 Public/
+drwxr-xr-x 2 sisops sisops 4096 Jun  4  2012 Templates/
+drwxr-xr-x 5 sisops sisops 4096 Feb 15 09:46 ua/
+drwxr-xr-x 2 sisops sisops 4096 Jun  4  2012 Videos/
+drwxrwxr-x 3 sisops sisops 4096 Jun  4  2012 workspace/
+
+./Desktop:
+total 0
+
+./Documents:
+total 0
+
+./Downloads:
+total 0
+
+./mod1:
+total 16
+drwxrwxr-x 3 sisops sisops 4096 Feb  8 09:12 borrame/
+drwxrwxr-x 2 sisops sisops 4096 Feb  8 09:12 ejercicios/
+drwxrwxr-x 2 sisops sisops 4096 Feb  8 09:12 sesion1/
+drwxrwxr-x 2 sisops sisops 4096 Feb  8 09:12 sesion2/
+
+./mod1/borrame:
+total 4
+drwxrwxr-x 3 sisops sisops 4096 Feb  8 09:12 borrame/
+
+./mod1/borrame/borrame:
+total 4
+drwxrwxr-x 2 sisops sisops 4096 Feb  8 09:12 borrame/
+
+./mod1/borrame/borrame/borrame:
+total 0
+
+./mod1/ejercicios:
+total 0
+
+./mod1/sesion1:
+total 0
+
+./mod1/sesion2:
+total 0
+
+./mod2:
+total 0
+
+./mod3:
+total 0
+
+./Music:
+total 0
+
+./Pictures:
+total 0
+
+./Public:
+total 0
+
+./Templates:
+total 0
+
+./ua:
+total 48
+drwxr-xr-x 2 sisops sisops  4096 Feb 15 09:26 borges/
+drwxr-xr-x 2 sisops sisops  4096 Feb 15 09:18 comodines/
+-rw-r--r-- 1 sisops sisops 14388 Feb 15 09:39 Cuento
+-rw-r--r-- 1 sisops sisops 14390 Feb 15 09:37 Cuento~
+drwxr-xr-x 2 sisops sisops  4096 Feb 15 07:28 f-rojas/
+-r--r--r-- 1 sisops sisops     0 Feb 15 09:46 nombres
+-r--r--r-- 1 sisops sisops     0 Feb 15 09:46 nombres.txt
+-rw-rw-r-- 1 sisops sisops     7 Feb 15 09:34 nombres.txt~
+
+./ua/borges:
+total 32
+-rw-r--r-- 1 sisops sisops   53 Feb 15 07:28 cortazar1
+-rw-r--r-- 1 sisops sisops   53 Feb 15 07:28 cortazar2
+-rw-rw-r-- 1 sisops sisops  159 Feb 15 09:21 FileArch
+-rw-r--r-- 1 sisops sisops  620 Feb 15 07:28 Inst1
+-rw-r--r-- 1 sisops sisops  617 Feb 15 07:28 Inst2
+-rw-r--r-- 1 sisops sisops 1237 Feb 15 07:28 Instantes
+-rw-rw-r-- 1 sisops sisops 1237 Feb 15 09:07 Instantes2
+-rw-r--r-- 1 sisops sisops 1239 Feb 15 07:28 jlborges
+
+./ua/comodines:
+total 20
+-rwxr-x--x 1 sisops sisops 294 Feb 15 08:44 2Bancos*
+-rw-rw-r-- 1 sisops sisops 119 Feb 15 09:18 9.txt
+-rw-r--r-- 1 sisops sisops 147 Feb 15 07:28 banco.c
+-rw-r--r-- 1 sisops sisops   0 Feb 15 07:28 demo.c
+-rw-r--r-- 1 sisops sisops  19 Feb 15 07:28 dos
+-rw-r--r-- 1 sisops sisops   0 Feb 15 07:28 EjerciciosSesion5y6
+-rw-r--r-- 1 sisops sisops   0 Feb 15 07:28 EjSes10
+-rw-r--r-- 1 sisops sisops   0 Feb 15 07:28 EjSes12
+-rw-r--r-- 1 sisops sisops   0 Feb 15 07:28 EjSes3
+-rw-r--r-- 1 sisops sisops   0 Feb 15 07:28 EjSesA
+-rw-r--r-- 1 sisops sisops   0 Feb 15 07:28 EjSesB
+-rw-r--r-- 1 sisops sisops   0 Feb 15 07:28 notasSes1
+-rw-r--r-- 1 sisops sisops   0 Feb 15 07:28 SesionDePrueba
+-rw-r--r-- 1 sisops sisops  19 Feb 15 07:28 uno
+
+./ua/f-rojas:
+total 16
+-rw-r--r-- 1 sisops sisops 14007 Feb 15 07:28 Nequeteje
+
+./Videos:
+total 0
+
+./workspace:
+total 0

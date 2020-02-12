@@ -1,0 +1,88 @@
+Diplomado en UNIX
+Modulo 1. Introduccion a UNIX
+Ejercicios 4a. Sesion: El shell como interprete de comandos
+
+ 1) Copia el directorio /users/pub/mod1/sesion4 a tu directorio base
+
+ 2) De que tama¤o es tu lista de eventos?  La lista de eventos entre sesiones?
+
+ 3) Busca en la lista de eventos el comando que utilizaste para la pregunta
+    1).  Con los mecanismos de sustitucion de eventos, lista el contenido
+    del directorio /users/pub/mod1/sesion4.
+
+ 4) Inmediatamente despues de haber ejecutado los comandos de las preguntas
+    anteriores, que hace el siguiente comando?
+
+		chen>!ls:0 -Rl !cp:$/../..
+
+ 5) Despues de haber ejecutado un listado simple de tu directorio (ls),
+    utiliza unicamente el comando de repeticion !! para realizar:
+		a) Un listado largo de tu directorio
+		b) Un listado largo del directorio raiz
+		c) Un listado largo del directorio /users/pub
+		d) Con una sola sustitucion, un listado largo del directorio
+		   /users/dipunix
+    (Por cierto, si has notado que tienes abiertos todos los permisos en tu
+     directorio, seria conveniente que inhibieras algunos de ellos).
+
+ 6) Revisa que alias tienes.  Introduce los de la pagina 10 de tus notas y
+    comprueba su operacion.  Elimina aquellos que no sean de tu interes.
+
+ 7) Las teclas de correccion <CTRL>H, <CTRL>W y <CTRL>U deben funcionar
+    correctamente dentro de vi.  Compruebalo.
+
+ 8) Activa la variable de shell notify y poseteriormente ejecuta el programa
+ "Lento" en el segundo plano redirigiendo su salida al archivo sale.  Ejecuta
+ mientas otros comandos.
+
+ 9) Crea tus propias variables de ambiente y de shell y comprueba que unica-
+    mente las variables de ambiente son "heredadas" por un proceso hijo
+    (Por ejemplo, un subshell) y que el hijo no modifica las variables del
+    padre.
+
+10) Si no se encuentran, activa las variables de shell 'echo' y 'filec' y
+    comprueba su funcionamiento
+
+11) Modifica tu variable de shell prompt para que despliegue el identificador de    usuario y el signo '>'.  Crea un subshell.  Se ha modificado el cursor?
+    Regresa al shell original y realiza lo necesario para que el nuevo
+    prompt si sea heredado por los hijos. 
+
+12) Modifica la variable de shell home para que contenga /bin y con ayuda de
+    los comandos cd y pwd verifica donde esta tu directorio base.
+    Devuelve la variable a su valor original.
+
+12) Cambiate al directorio raiz y trata de ejecutar el programa Saludos.
+    Modifica la variable de ambiente path para que contenga el directorio
+    $HOME/sesion4 o en donde hayas guardado los programas de esta sesion y
+    vuelve a intentar ejecutar el programa Saludos desde la raiz.
+    TEN MUCHO CUIDADO DE UTILIZAR LA SINTAXIS CORRECTA.
+
+13) Que efecto tienen los siguientes comandos?
+	chen>cat < $HOME/sesion3/Nequeteje > arch
+	chen>cat $HOME/sesion3/Nequeteje > arch
+	chen>cat $HOME/sesion3/Nequeteje | tee arch > /dev/null
+
+14) El programa ListNoord genera una lista de numeros desordenados. Combina
+    los comandos que conoces con separadores y redirectores para que en una
+    sola linea:
+		a) Genere un archivo con los numeros ordenados
+		b) Despliegue cuantos numeros se generaron
+		c) Genere un archivo con los primeros diez numeros
+		d) Genere un archivo con los ultimos diez numeros
+
+15) Combina en una sola linea los comandos necesarios para crear un archivo
+    con las lineas 7 a 15 del archivo ordenado en la pregunta anterior
+
+16) Para los siguientes comandos, trata de predecir el resultado que se
+    obtendra.  Ejecuta los siguientes comandos y asegurate de comprender que
+    sucede en los casos en que no hayas obtenido los resultados esperados.
+
+	chen>date; who; wc -l
+	chen>(date;who); wc -l
+	chen>echo *
+	chen>echo '*'
+	chen>echo \*
+	chen>echo x*y
+	chen>echo x'*'y
+
+	Hasta la proxima semana!!

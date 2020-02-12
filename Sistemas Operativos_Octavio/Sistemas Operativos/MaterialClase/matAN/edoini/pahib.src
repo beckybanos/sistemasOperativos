@@ -1,0 +1,13 @@
+echo "Compilar y Ligar padrea.cc"
+g++ padrea.cc -o padrea.exe
+
+echo "Compilar y Ligar hijofina1.cc"
+g++ hijofina1.cc -o hijofina1.exe
+
+echo "Compilar y Ligar hijofina2.cc"
+g++ hijofina2.cc -o hijofina2.exe
+
+echo "Compilar y Ligar hijofina3.cc"
+g++ hijofina3.cc -o hijofina3.exe
+
+echo "source pahib.src TERMINADO"

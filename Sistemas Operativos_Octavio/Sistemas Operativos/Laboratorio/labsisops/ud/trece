@@ -1,0 +1,16 @@
+#!/bin/tcsh
+#Calcula la suma de n numeros
+if($1 == "") then
+    echo "Dame un numero"
+    set n=$<
+else
+    set n=$1
+endif
+set suma=0
+while($n>0)
+    echo "Ingresa un valor"
+    set valor=$<
+    @ suma += $valor
+    @ n--
+end
+echo "La suma es $suma"

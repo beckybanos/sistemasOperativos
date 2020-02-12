@@ -1,0 +1,4 @@
+Esta es una prueba para verificar
+el funcionamiento de la division
+en tokens de una linea de texto
+456.78 -98 -+- 210

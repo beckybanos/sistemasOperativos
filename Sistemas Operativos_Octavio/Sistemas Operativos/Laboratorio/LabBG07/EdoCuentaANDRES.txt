@@ -1,0 +1,16 @@
+Clave transaccion: CH001 Monto: 239.0
+
+Clave transaccion: CH002 Monto: 345.9
+
+Clave transaccion: CH330 Monto: 3000.58
+
+Clave del cliente: 400
+
+Nombre del cliente: ANDRES
+
+Monto total en transacciones: 3585.48
+
+Tiempo ejecucion: 3 milisegundos 
+
+Número de transacciones: 3
+

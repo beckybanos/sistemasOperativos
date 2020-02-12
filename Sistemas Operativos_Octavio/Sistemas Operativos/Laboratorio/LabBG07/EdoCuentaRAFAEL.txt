@@ -1,0 +1,16 @@
+Clave transaccion: CH329 Monto: 765.89
+
+Clave transaccion: CH210 Monto: 1066.0
+
+Clave transaccion: TC299 Monto: 999999.0
+
+Clave del cliente: 700
+
+Nombre del cliente: RAFAEL
+
+Monto total en transacciones: 1001830.89
+
+Tiempo ejecucion: 5 milisegundos 
+
+Número de transacciones: 3
+

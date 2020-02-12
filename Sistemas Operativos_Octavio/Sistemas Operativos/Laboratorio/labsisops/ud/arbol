@@ -1,0 +1,16 @@
+#!/bin/tcsh
+# Busca guiones o scripts de tcsh en el directorio actual
+
+set cta=0
+foreach arch (*)
+    if(-f ${arch} && -r ${arch} && -x ${arch} ) then
+        set cabeza = `head -1 ${arch} | grep tcsh`
+        if( ${#cabeza} != 0 ) then
+            @ cta ++
+            echo "Script no. ${cta} : ${arch}"
+        endif
+    endif
+end
+if( ${cta} > 0 ) then
+    echo "    Se encontraron ${cta} guiones de tcsh"
+endif

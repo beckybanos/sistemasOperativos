@@ -1,0 +1,4 @@
+#!/bin/tcsh
+set v1 = X`echo a b c`Y
+set v2 = "X`echo a b c`Y"
+echo ${v1} "  " ${v2} " " ${#v1} " " ${#v2}

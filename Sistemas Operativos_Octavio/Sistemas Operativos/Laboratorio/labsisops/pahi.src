@@ -1,0 +1,2 @@
+g++ padre.cc -o padre.exe
+g++ hijofinal.cc -o hijofinal.exe

@@ -1,0 +1,7 @@
+Transacción    clave: CH226 Monto: 100.3
+Transacción    clave: CH544 Monto: 445.31
+
+Cliente: ALICIA Clave: 900
+Monto total: 545.61
+Tiempo de ejecución: 4 milisegundos.
+Número de transacciones: 2

@@ -1,0 +1,4 @@
+#!/bin/tcsh
+#Borra los directorios creados por catorce
+
+rmdir hola*

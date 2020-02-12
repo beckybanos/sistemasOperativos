@@ -1,0 +1,23 @@
+[1] 13040
+[2] 13042
+[3] 13043
+[4] 13045
+[5] 13050
+[6] 13051
+[7] 13052
+[8] 13053
+[9] 13054
+[10] 13055
+[10] - Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+[9]  + Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+[8]  + Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+[7]  + Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+[6]  + Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+[5]  + Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+[4]  + Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+[3]  + Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+[2]  + Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+[1]  + Done                          ( MovimientosCliente $nomCliente $clvCliente; echo "$status $nomCliente" >> "errores.txt" )
+No hubo movimientos del cliente ALICIA
+Fri Apr 26 15:24:40 CDT 2019
+Time elapsed: 0

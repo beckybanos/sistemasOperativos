@@ -1,0 +1,12 @@
+CopiaSumAr.java
+Este programa copia un archivo de texto que contiene un número por línea.
+Este programa pide como entrada un archivo existente (p.e. numeros.txt) asi como el nombre de un archivo de salida.
+Realiza una copia uno a uno, sumándole 100 a cada número.
+
+TokenAr.java
+Este programa toma un archivo de texto (p.e. tokenin.txt), y cada linea de texto la divide en tokens
+utilizando el método split( ) de la clase String.
+Cada token lo va escribiendo en un archivo de salida a razon de un token por renglon.
+
+FechaG.java
+Hace uso de Date y GregorianCalender para manejor de fechas.

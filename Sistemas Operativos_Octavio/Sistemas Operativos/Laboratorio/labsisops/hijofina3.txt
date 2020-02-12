@@ -1,0 +1,13 @@
+SaLuDoSa3
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000  2590  2583  0  80   0 -  1450 rt_sig pts/0    00:00:00 tcsh
+0 S  1000  4187  2590  0  80   0 -   502 wait   pts/0    00:00:00 padrea.exe
+0 S  1000  4188  4187  0  80   0 -   502 wait   pts/0    00:00:00 hijofina1.exe
+0 S  1000  4189  4187  0  80   0 -   502 wait   pts/0    00:00:00 hijofina2.exe
+0 S  1000  4190  4187  0  80   0 -   502 wait   pts/0    00:00:00 hijofina3.exe
+0 S  1000  4200  4190  0  80   0 -   559 wait   pts/0    00:00:00 sh
+0 S  1000  4201  4189  0  80   0 -   559 wait   pts/0    00:00:00 sh
+0 S  1000  4202  4188  0  80   0 -   559 wait   pts/0    00:00:00 sh
+0 R  1000  4203  4200  0  80   0 -  1177 -      pts/0    00:00:00 ps
+0 R  1000  4204  4202  0  80   0 -  1177 -      pts/0    00:00:00 ps
+0 R  1000  4205  4201  0  80   0 -  1177 -      pts/0    00:00:00 ps

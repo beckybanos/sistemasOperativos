@@ -1,0 +1,458 @@
+NEW --> READY: bork.exe
+-------------
+NEW --> READY: iron.exe
+-------------
+NEW --> READY: arf.exe
+-------------
+NEW --> READY: bark.exe
+-------------
+NEW --> READY: endgame.exe
+-------------
+NEW --> READY: borf.exe
+-------------
+READY --> RUNNING: iron.exe BURSTS: 3
+-------------
+NEW --> READY: woof.exe
+-------------
+READY --> RUNNING: bork.exe BURSTS: 7
+-------------
+READY --> RUNNING: arf.exe BURSTS: 5
+-------------
+NEW --> READY: growl.exe
+-------------
+RUNNING --> WAITING: bork.exe
+-------------
+NEW --> READY: guau.exe
+-------------
+READY --> RUNNING: bark.exe BURSTS: 2
+-------------
+RUNNING --> WAITING: arf.exe
+-------------
+NEW --> READY: howl.exe
+-------------
+READY --> RUNNING: woof.exe BURSTS: 3
+-------------
+READY --> RUNNING: endgame.exe BURSTS: 4
+-------------
+READY --> RUNNING: borf.exe BURSTS: 2
+-------------
+READY --> RUNNING: guau.exe BURSTS: 5
+-------------
+READY --> RUNNING: growl.exe BURSTS: 10
+-------------
+RUNNING --> WAITING: bark.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 17
+-------------
+RUNNING --> WAITING: woof.exe
+-------------
+RUNNING --> WAITING: growl.exe
+-------------
+WAITING --> READY: woof.exe
+-------------
+READY --> RUNNING: woof.exe BURSTS: 2
+-------------
+RUNNING --> WAITING: iron.exe
+-------------
+WAITING --> READY: arf.exe
+-------------
+READY --> RUNNING: arf.exe BURSTS: 4
+-------------
+RUNNING --> WAITING: borf.exe
+-------------
+RUNNING --> WAITING: guau.exe
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+WAITING --> READY: bork.exe
+-------------
+READY --> RUNNING: bork.exe BURSTS: 6
+-------------
+RUNNING --> WAITING: arf.exe
+-------------
+WAITING --> READY: bark.exe
+-------------
+WAITING --> READY: guau.exe
+-------------
+READY --> RUNNING: bark.exe BURSTS: 1
+-------------
+WAITING --> READY: iron.exe
+-------------
+WAITING --> READY: borf.exe
+-------------
+RUNNING --> WAITING: endgame.exe
+-------------
+READY --> RUNNING: guau.exe BURSTS: 4
+-------------
+WAITING --> READY: growl.exe
+-------------
+RUNNING --> WAITING: guau.exe
+-------------
+READY --> RUNNING: iron.exe BURSTS: 2
+-------------
+RUNNING --> WAITING: bork.exe
+-------------
+RUNNING --> WAITING: bark.exe
+-------------
+READY --> RUNNING: borf.exe BURSTS: 1
+-------------
+WAITING --> READY: howl.exe
+-------------
+RUNNING --> WAITING: borf.exe
+-------------
+READY --> RUNNING: growl.exe BURSTS: 9
+-------------
+WAITING --> READY: bark.exe
+-------------
+RUNNING --> WAITING: woof.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 16
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+READY --> RUNNING: bark.exe BURSTS: 0
+-------------
+RUNNING --> TERMINATED: bark.exe
+-------------
+#############
+Nombre del proceso: bark.exe
+Tiempo total de servicio: 655 milisegundos
+Tiempo total de espera: 617 milisegundos
+#############
+WAITING --> READY: endgame.exe
+-------------
+READY --> RUNNING: endgame.exe BURSTS: 3
+-------------
+RUNNING --> WAITING: iron.exe
+-------------
+WAITING --> READY: arf.exe
+-------------
+READY --> RUNNING: arf.exe BURSTS: 3
+-------------
+WAITING --> READY: borf.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+WAITING --> READY: guau.exe
+-------------
+RUNNING --> WAITING: endgame.exe
+-------------
+READY --> RUNNING: borf.exe BURSTS: 0
+-------------
+READY --> RUNNING: howl.exe BURSTS: 15
+-------------
+RUNNING --> TERMINATED: borf.exe
+-------------
+#############
+Nombre del proceso: borf.exe
+Tiempo total de servicio: 446 milisegundos
+Tiempo total de espera: 795 milisegundos
+#############
+RUNNING --> WAITING: growl.exe
+-------------
+READY --> RUNNING: guau.exe BURSTS: 3
+-------------
+WAITING --> READY: iron.exe
+-------------
+RUNNING --> WAITING: arf.exe
+-------------
+READY --> RUNNING: iron.exe BURSTS: 1
+-------------
+WAITING --> READY: woof.exe
+-------------
+WAITING --> READY: bork.exe
+-------------
+WAITING --> READY: growl.exe
+-------------
+WAITING --> READY: endgame.exe
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+READY --> RUNNING: woof.exe BURSTS: 1
+-------------
+WAITING --> READY: arf.exe
+-------------
+RUNNING --> WAITING: iron.exe
+-------------
+READY --> RUNNING: bork.exe BURSTS: 5
+-------------
+RUNNING --> WAITING: guau.exe
+-------------
+READY --> RUNNING: growl.exe BURSTS: 8
+-------------
+RUNNING --> WAITING: growl.exe
+-------------
+READY --> RUNNING: endgame.exe BURSTS: 2
+-------------
+WAITING --> READY: guau.exe
+-------------
+RUNNING --> WAITING: woof.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: arf.exe BURSTS: 2
+-------------
+WAITING --> READY: woof.exe
+-------------
+WAITING --> READY: iron.exe
+-------------
+WAITING --> READY: growl.exe
+-------------
+RUNNING --> WAITING: bork.exe
+-------------
+READY --> RUNNING: guau.exe BURSTS: 2
+-------------
+RUNNING --> WAITING: endgame.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 14
+-------------
+RUNNING --> WAITING: guau.exe
+-------------
+READY --> RUNNING: woof.exe BURSTS: 0
+-------------
+READY --> RUNNING: iron.exe BURSTS: 0
+-------------
+RUNNING --> TERMINATED: woof.exe
+-------------
+#############
+Nombre del proceso: woof.exe
+Tiempo total de servicio: 1930 milisegundos
+Tiempo total de espera: 869 milisegundos
+#############
+RUNNING --> TERMINATED: iron.exe
+-------------
+READY --> RUNNING: growl.exe BURSTS: 7
+-------------
+#############
+Nombre del proceso: iron.exe
+Tiempo total de servicio: 1937 milisegundos
+Tiempo total de espera: 1560 milisegundos
+#############
+RUNNING --> WAITING: growl.exe
+-------------
+RUNNING --> WAITING: arf.exe
+-------------
+WAITING --> READY: bork.exe
+-------------
+READY --> RUNNING: bork.exe BURSTS: 4
+-------------
+WAITING --> READY: growl.exe
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+READY --> RUNNING: growl.exe BURSTS: 6
+-------------
+RUNNING --> WAITING: bork.exe
+-------------
+RUNNING --> WAITING: growl.exe
+-------------
+WAITING --> READY: endgame.exe
+-------------
+READY --> RUNNING: endgame.exe BURSTS: 1
+-------------
+WAITING --> READY: guau.exe
+-------------
+RUNNING --> WAITING: endgame.exe
+-------------
+READY --> RUNNING: guau.exe BURSTS: 1
+-------------
+WAITING --> READY: howl.exe
+-------------
+WAITING --> READY: arf.exe
+-------------
+WAITING --> READY: growl.exe
+-------------
+RUNNING --> WAITING: guau.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 13
+-------------
+WAITING --> READY: bork.exe
+-------------
+WAITING --> READY: endgame.exe
+-------------
+WAITING --> READY: guau.exe
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+READY --> RUNNING: arf.exe BURSTS: 1
+-------------
+WAITING --> READY: howl.exe
+-------------
+RUNNING --> WAITING: arf.exe
+-------------
+READY --> RUNNING: growl.exe BURSTS: 5
+-------------
+WAITING --> READY: arf.exe
+-------------
+RUNNING --> WAITING: growl.exe
+-------------
+READY --> RUNNING: bork.exe BURSTS: 3
+-------------
+WAITING --> READY: growl.exe
+-------------
+RUNNING --> WAITING: bork.exe
+-------------
+READY --> RUNNING: endgame.exe BURSTS: 0
+-------------
+READY --> RUNNING: guau.exe BURSTS: 0
+-------------
+RUNNING --> TERMINATED: endgame.exe
+-------------
+#############
+Nombre del proceso: endgame.exe
+Tiempo total de servicio: 2096 milisegundos
+Tiempo total de espera: 2893 milisegundos
+#############
+READY --> RUNNING: howl.exe BURSTS: 12
+-------------
+RUNNING --> TERMINATED: guau.exe
+-------------
+#############
+Nombre del proceso: guau.exe
+Tiempo total de servicio: 2023 milisegundos
+Tiempo total de espera: 2889 milisegundos
+#############
+RUNNING --> WAITING: howl.exe
+-------------
+READY --> RUNNING: arf.exe BURSTS: 0
+-------------
+READY --> RUNNING: growl.exe BURSTS: 4
+-------------
+RUNNING --> TERMINATED: arf.exe
+-------------
+#############
+Nombre del proceso: arf.exe
+Tiempo total de servicio: 1765 milisegundos
+Tiempo total de espera: 3477 milisegundos
+#############
+RUNNING --> WAITING: growl.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 11
+-------------
+WAITING --> READY: bork.exe
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+READY --> RUNNING: bork.exe BURSTS: 2
+-------------
+WAITING --> READY: growl.exe
+-------------
+RUNNING --> WAITING: bork.exe
+-------------
+READY --> RUNNING: growl.exe BURSTS: 3
+-------------
+RUNNING --> WAITING: growl.exe
+-------------
+WAITING --> READY: growl.exe
+-------------
+READY --> RUNNING: growl.exe BURSTS: 2
+-------------
+WAITING --> READY: howl.exe
+-------------
+WAITING --> READY: bork.exe
+-------------
+RUNNING --> WAITING: growl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 10
+-------------
+WAITING --> READY: growl.exe
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+READY --> RUNNING: bork.exe BURSTS: 1
+-------------
+WAITING --> READY: howl.exe
+-------------
+RUNNING --> WAITING: bork.exe
+-------------
+READY --> RUNNING: growl.exe BURSTS: 1
+-------------
+WAITING --> READY: bork.exe
+-------------
+RUNNING --> WAITING: growl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 9
+-------------
+WAITING --> READY: growl.exe
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+READY --> RUNNING: bork.exe BURSTS: 0
+-------------
+READY --> RUNNING: growl.exe BURSTS: 0
+-------------
+RUNNING --> TERMINATED: bork.exe
+-------------
+#############
+Nombre del proceso: bork.exe
+Tiempo total de servicio: 3056 milisegundos
+Tiempo total de espera: 4636 milisegundos
+#############
+RUNNING --> TERMINATED: growl.exe
+-------------
+#############
+Nombre del proceso: growl.exe
+Tiempo total de servicio: 4488 milisegundos
+Tiempo total de espera: 3862 milisegundos
+#############
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 8
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 7
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 6
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 5
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 4
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 3
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 2
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 1
+-------------
+RUNNING --> WAITING: howl.exe
+-------------
+WAITING --> READY: howl.exe
+-------------
+READY --> RUNNING: howl.exe BURSTS: 0
+-------------
+RUNNING --> TERMINATED: howl.exe
+-------------
+#############
+Nombre del proceso: howl.exe
+Tiempo total de servicio: 8904 milisegundos
+Tiempo total de espera: 7041 milisegundos
+#############

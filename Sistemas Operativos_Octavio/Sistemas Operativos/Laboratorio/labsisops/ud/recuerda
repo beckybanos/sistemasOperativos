@@ -1,0 +1,15 @@
+#!/bin/tcsh
+set dia=`date '+%d-%m'`
+switch ($dia)
+    case "02-02":
+        echo "Cumpleaños de Maty y Juan Carlos"
+        breaksw
+    case "05-04":
+	echo "Mi aniversario"
+	breaksw
+    case "26-07":
+        echo "Aniversario"
+        breaksw
+    default:
+        echo "Buenos dias. Nada importante hoy"
+endsw

@@ -1,0 +1,11 @@
+
+run iron.exe 3
+run bork.exe 7
+run arf.exe 5
+run bark.exe 2
+run woof.exe 3
+run howl.exe 17
+run guau.exe 5
+run borf.exe 2
+run growl.exe 10
+run endgame.exe 4

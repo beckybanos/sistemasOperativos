@@ -1,0 +1,14 @@
+Clave transaccion: CH545 Monto: 700.0
+
+Clave transaccion: CH444 Monto: 879.0
+
+Clave del cliente: 500
+
+Nombre del cliente: PAULINA
+
+Monto total en transacciones: 1579.0
+
+Tiempo ejecucion: 4 milisegundos 
+
+Número de transacciones: 2
+

@@ -1,0 +1,30 @@
+#!/bin/tcsh
+set t1 = `date +%s`
+
+rm EdoCuenta*
+rm errores.txt
+
+foreach linea ( "`cat clientes.txt`" )
+   set argv = ( $linea )
+   set clvCliente = $1
+   set nomCliente = $2
+   (MovimientosCliente $nomCliente $clvCliente ; echo "$status $nomCliente" >> "errores.txt") &
+end
+
+wait
+
+foreach linea ( "`cat errores.txt`" )
+   set argv = ( $linea )
+   set estado = $1
+   set nomCliente = $2
+
+   if ($estado != 0) then
+   	echo "No hubo movimientos del cliente $nomCliente"
+   endif
+end
+
+echo `date`
+
+set t2 = `date +%s`
+set diff = `echo "$t2 - $t1" | bc`
+echo "Time elapsed: $diff"

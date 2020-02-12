@@ -1,0 +1,8 @@
+Transacción    clave: CH567 Monto: 1.9
+Transacción    clave: CH878 Monto: 759.23
+Transacción    clave: TC498 Monto: 111.12
+
+Cliente: ESTELA Clave: 1000
+Monto total: 872.25
+Tiempo de ejecución: 4 milisegundos.
+Número de transacciones: 3

@@ -1,0 +1,8 @@
+#!/bin/tcsh
+set j = $#argv
+set i = 0
+while ( $i < $j )
+    echo "$#argv    $1"
+    shift
+    set i = `expr $i + 1`
+end

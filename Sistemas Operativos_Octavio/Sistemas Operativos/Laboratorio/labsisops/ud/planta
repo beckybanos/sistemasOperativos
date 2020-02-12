@@ -1,0 +1,5 @@
+#!/bin/tcsh
+# Escribe la lista que se le indica
+foreach uno (2 "hola")
+    echo $uno
+end

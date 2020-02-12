@@ -1,0 +1,31 @@
+#!/bin/tcsh
+set nomCliente = $1
+set clvCliente = $2
+set nomArch = "EdoCuenta$nomCliente.txt"
+set n = 0
+set montoTotal = 0.0
+
+foreach linea ( "`cat movimientos.txt`" )
+   set argv = ( $linea )
+   set clvC = $1
+   set clvT = $2
+   set valor = $3
+   if($clvCliente == $clvC) then
+   	@ n++
+   	if ($n == 1) then
+   		: > $nomArch
+   	endif
+   	set transaccion = "Transaccion clave: $clvT Monto: $valor"
+   	echo $transaccion >> $nomArch
+   	set montoTotal = `echo "$montoTotal + $valor" | tr -d '\r' | bc`
+   endif
+end
+
+if ($n > 0) then
+	echo "Cliente: $nomCliente Clave: $clvCliente" >> $nomArch
+	echo "Monto total: $montoTotal" >> $nomArch
+	echo "Numero de transacciones: $n" >> $nomArch
+	exit 0
+else
+	exit 66
+endif

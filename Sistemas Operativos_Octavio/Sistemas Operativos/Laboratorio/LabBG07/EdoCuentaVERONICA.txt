@@ -1,0 +1,14 @@
+Clave transaccion: TC777 Monto: 400.0
+
+Clave transaccion: CH879 Monto: 321.23
+
+Clave del cliente: 800
+
+Nombre del cliente: VERONICA
+
+Monto total en transacciones: 721.23
+
+Tiempo ejecucion: 4 milisegundos 
+
+Número de transacciones: 2
+

@@ -1,0 +1,16 @@
+#!/bin/tcsh
+#Bienvenida. Despliega usuario, fecha y usuarios en el sistema.
+echo "Hola ${USER}"
+echo "Today is `date`"
+echo " "
+echo "Y trabajando contigo estan:"
+set contador=`who|wc -l`
+if ( $contador <= 5 ) then
+    echo "las siguientes ${contador} personas"
+    who
+else
+    echo "${contador} personas" 
+endif
+echo " "
+ps -l
+unset contador   # Remueve la variable contador.

@@ -1,0 +1,27 @@
+// DatosSis.cc
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Despliega el contenido una variable de
+   medio ambiente. */
+
+int main(int argc, char *argv[])
+{
+  char buffer[50];
+  char* variable;
+  if(argc > 1){
+	sprintf(buffer,"%s",argv[1]);
+	variable = getenv(buffer);
+	if(variable != (char*)0){
+  		printf("%s= %s\n", argv[1], variable);
+	}
+	else{
+		printf("Variable %s no existe. \n", buffer);	
+	}
+  }
+  else{
+	printf("No te quieras pasar de listo.\n");
+  }
+  return 0;
+}

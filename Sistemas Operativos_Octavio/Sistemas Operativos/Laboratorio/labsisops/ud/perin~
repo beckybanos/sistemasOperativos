@@ -1,0 +1,6 @@
+#!/bin/tcsh
+set i = 3
+set j = $i
+echo "i es " $i "j es " ${j}
+set v1 = $<; set v2 = $<
+echo "v1 es " ${v1} "v2 es " $v2

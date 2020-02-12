@@ -1,0 +1,5 @@
+#!/bin/tcsh
+# Escribe la lista que de argumentos
+foreach dos ($*)
+    echo $dos
+end

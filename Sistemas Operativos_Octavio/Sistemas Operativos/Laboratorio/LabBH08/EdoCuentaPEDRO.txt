@@ -1,0 +1,9 @@
+Transacción    clave: CH960 Monto: 500.0
+Transacción    clave: TC431 Monto: 876.55
+Transacción    clave: CH200 Monto: 431.12
+Transacción    clave: TC221 Monto: 948.9
+
+Cliente: PEDRO Clave: 200
+Monto total: 2756.57
+Tiempo de ejecución: 4 milisegundos.
+Número de transacciones: 4

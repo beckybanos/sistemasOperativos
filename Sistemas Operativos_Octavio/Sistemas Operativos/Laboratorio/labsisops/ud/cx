@@ -1,0 +1,4 @@
+#!/bin/tcsh
+#cx. Activa permiso x del archivo que recibe como argumento. 
+#y lo guarda en el directorio $PWD  
+chmod u+rx $1

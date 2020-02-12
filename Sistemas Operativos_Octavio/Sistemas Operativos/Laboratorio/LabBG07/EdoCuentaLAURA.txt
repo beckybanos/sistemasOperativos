@@ -1,0 +1,14 @@
+Clave transaccion: CH400 Monto: 1000.0
+
+Clave transaccion: TC223 Monto: 230.0
+
+Clave del cliente: 100
+
+Nombre del cliente: LAURA
+
+Monto total en transacciones: 1230.0
+
+Tiempo ejecucion: 4 milisegundos 
+
+Número de transacciones: 2
+

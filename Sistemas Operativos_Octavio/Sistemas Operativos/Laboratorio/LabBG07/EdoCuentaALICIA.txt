@@ -1,0 +1,14 @@
+Clave transaccion: CH226 Monto: 100.3
+
+Clave transaccion: CH544 Monto: 445.31
+
+Clave del cliente: 900
+
+Nombre del cliente: ALICIA
+
+Monto total en transacciones: 545.61
+
+Tiempo ejecucion: 4 milisegundos 
+
+Número de transacciones: 2
+

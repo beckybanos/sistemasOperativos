@@ -1,0 +1,17 @@
+#!/bin/tcsh
+#Crea n directorios con el mismo formato
+if($1 == "") then
+    echo "Dame un numero"
+    set n=$<
+else
+    set n=$1
+endif
+while($n>0)
+    if($n < 10) then
+	set nombreDir="hola0{$n}"
+    else
+	set nombreDir="hola{$n}"
+    endif
+    mkdir -p $nombreDir
+    @ n--
+end

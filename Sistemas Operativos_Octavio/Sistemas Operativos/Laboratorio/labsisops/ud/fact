@@ -1,0 +1,15 @@
+#!/bin/tcsh
+#Calcula factorial del numero recibido como argumento
+
+if($1 == "") then
+    echo "Dame un numero"
+    set cta=$<
+else
+    set cta=$1
+endif
+set fact=1
+while($cta>1)
+    @ fact *= $cta
+    @ cta--
+end
+echo "El factorial es $fact"
