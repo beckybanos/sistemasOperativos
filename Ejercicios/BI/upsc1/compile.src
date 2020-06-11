@@ -1,0 +1,16 @@
+g++ argumentos.cc -o argumentos.exe
+g++ convarso.cc -o argumentos.exe
+g++ FechaG.cc -o argumentos.exe
+g++ NomCom.cc -o argumentos.exe
+g++ Fecha.cc -o argumentos.exe
+g++ DatosUsu.cc -o argumentos.exe
+g++ ppiduid.cc -o argumentos.exe
+g++ DatosSis.cc -o argumentos.exe
+javac DatosSis.java
+javac convarso.java
+javac NomCom.java
+javac Fecha.java
+javac convarsol.java
+javac FechaG.java
+javac DatosUsu.java
+javac argumentos.java
